@@ -16,3 +16,19 @@ header {
     border-bottom: 2px solid black;
 }
 
+.class-list {
+    list-style-type: square;
+}
+
+.item {
+    border: 1px dashed burlywood;
+}
+
+.even {
+    background-color: grey;
+}
+
+.odd {
+    background-color: black;
+    color: white;
+}
