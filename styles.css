@@ -54,7 +54,7 @@ ol ul a:hover {
     background-color: yellow;
 }
 
-ol a:active {
+ol ul a:active {
     background-color: red;
 }
 
