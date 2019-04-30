@@ -41,16 +41,16 @@ header {
     text-align: right;
 }
 
-ol > li {
+ol > li p {
     padding: 3px;
     background-color: grey;
 }
 
-ol > li:nth-child(odd) {
+ol > li:nth-child(odd) p {
     background-color: green;
 }
 
-ol a:hover {
+ol ul a:hover {
     background-color: yellow;
 }
 
@@ -60,4 +60,8 @@ ol a:active {
 
 p {
     font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+a[title="Bitmaker"]:hover {
+    text-decoration: none;
 }
